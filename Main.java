@@ -5,7 +5,7 @@ public class Main {
         try {
 
             Parameter instance = new Parameter();
-            instance.initParams("D:\\学习资料\\vrp求解范例\\solomon-100\\In\\c201.txt");
+            instance.initParams("D:\\xxx");
             instance.dist[0][instance.nbClients+1] = instance.veribig;
             for (int i = 0; i < instance.speed.length; i++) {
                 instance.travelTime[i][0][instance.nbClients+1] = instance.veribig;
